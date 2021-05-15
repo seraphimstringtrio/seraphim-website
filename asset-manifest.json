@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/test-website/static/css/main.36073025.chunk.css",
-    "main.js": "/test-website/static/js/main.b50afc56.chunk.js",
-    "main.js.map": "/test-website/static/js/main.b50afc56.chunk.js.map",
-    "runtime-main.js": "/test-website/static/js/runtime-main.57e80923.js",
-    "runtime-main.js.map": "/test-website/static/js/runtime-main.57e80923.js.map",
-    "static/js/2.0d53696c.chunk.js": "/test-website/static/js/2.0d53696c.chunk.js",
-    "static/js/2.0d53696c.chunk.js.map": "/test-website/static/js/2.0d53696c.chunk.js.map",
-    "static/js/3.0dcda57a.chunk.js": "/test-website/static/js/3.0dcda57a.chunk.js",
-    "static/js/3.0dcda57a.chunk.js.map": "/test-website/static/js/3.0dcda57a.chunk.js.map",
+    "main.css": "/test-website/static/css/main.b5454c02.chunk.css",
+    "main.js": "/test-website/static/js/main.111c789b.chunk.js",
+    "main.js.map": "/test-website/static/js/main.111c789b.chunk.js.map",
+    "runtime-main.js": "/test-website/static/js/runtime-main.e28b5da9.js",
+    "runtime-main.js.map": "/test-website/static/js/runtime-main.e28b5da9.js.map",
+    "static/js/2.dd127536.chunk.js": "/test-website/static/js/2.dd127536.chunk.js",
+    "static/js/2.dd127536.chunk.js.map": "/test-website/static/js/2.dd127536.chunk.js.map",
+    "static/js/3.73093095.chunk.js": "/test-website/static/js/3.73093095.chunk.js",
+    "static/js/3.73093095.chunk.js.map": "/test-website/static/js/3.73093095.chunk.js.map",
     "index.html": "/test-website/index.html",
-    "static/css/main.36073025.chunk.css.map": "/test-website/static/css/main.36073025.chunk.css.map",
-    "static/js/2.0d53696c.chunk.js.LICENSE.txt": "/test-website/static/js/2.0d53696c.chunk.js.LICENSE.txt",
+    "static/css/main.b5454c02.chunk.css.map": "/test-website/static/css/main.b5454c02.chunk.css.map",
+    "static/js/2.dd127536.chunk.js.LICENSE.txt": "/test-website/static/js/2.dd127536.chunk.js.LICENSE.txt",
+    "static/media/2021 Concert Cover Photo.674b08af.png": "/test-website/static/media/2021 Concert Cover Photo.674b08af.png",
+    "static/media/Concert 2021 pic1.73b191ee.jpg": "/test-website/static/media/Concert 2021 pic1.73b191ee.jpg",
+    "static/media/Concert 2021 pic2.bc81839d.jpg": "/test-website/static/media/Concert 2021 pic2.bc81839d.jpg",
+    "static/media/Concert 2021 pic3.be21009b.jpg": "/test-website/static/media/Concert 2021 pic3.be21009b.jpg",
     "static/media/Concert Cover Photo Compressed.84308769.png": "/test-website/static/media/Concert Cover Photo Compressed.84308769.png",
     "static/media/ContactUsPreview.2dcde355.png": "/test-website/static/media/ContactUsPreview.2dcde355.png",
     "static/media/Home.a137d389.png": "/test-website/static/media/Home.a137d389.png",
+    "static/media/New Hall Rear Shot.42f08842.jpg": "/test-website/static/media/New Hall Rear Shot.42f08842.jpg",
     "static/media/Prime Minister.30d00e4a.jpg": "/test-website/static/media/Prime Minister.30d00e4a.jpg",
-    "static/media/Seraphim Logo.7a182959.png": "/test-website/static/media/Seraphim Logo.7a182959.png",
-    "static/media/logo.6ce24c58.svg": "/test-website/static/media/logo.6ce24c58.svg"
+    "static/media/Seraphim Logo.7a182959.png": "/test-website/static/media/Seraphim Logo.7a182959.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.57e80923.js",
-    "static/js/2.0d53696c.chunk.js",
-    "static/css/main.36073025.chunk.css",
-    "static/js/main.b50afc56.chunk.js"
+    "static/js/runtime-main.e28b5da9.js",
+    "static/js/2.dd127536.chunk.js",
+    "static/css/main.b5454c02.chunk.css",
+    "static/js/main.111c789b.chunk.js"
   ]
 }
