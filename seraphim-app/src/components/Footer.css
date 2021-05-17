@@ -1,0 +1,11 @@
+#footer {
+    display: block;
+    width: 100%;
+    font-size: 10pt;
+    margin: 20px;
+}
+
+#footerInfo {
+    margin-left: 25px;
+    margin-top: 10px;
+}

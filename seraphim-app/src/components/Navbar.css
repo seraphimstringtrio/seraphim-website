@@ -1,0 +1,29 @@
+#logo {
+    width: 200px;
+    height: 55px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+/* Navigation link styling */
+#navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 65%;
+}
+
+#navLinks a {
+    color: #6A6161;
+    text-decoration: none;
+}
+
+#navLinks a:hover {
+    text-decoration: underline;
+}

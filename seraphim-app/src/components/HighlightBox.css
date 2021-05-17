@@ -1,0 +1,16 @@
+.highlightBox {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 45px;
+}
+
+.highlightTitle {
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+
+.highlightBtn {
+    margin: auto;
+    margin-top: 40px;
+}

@@ -1,0 +1,24 @@
+section {
+    margin: 10px 15%;
+    font-family: Avenir, Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coverPhoto {
+    width: 100%;
+    object-fit: cover;
+    height: 450px;
+}
+
+.pageTitle {
+    font-size: 38pt;
+    margin-top: 20px;
+}
+
+.pageDescription {
+    margin: 40px;
+    text-align: justify;
+    line-height: 28px;
+}
