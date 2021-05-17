@@ -7,16 +7,22 @@ import './RepertoireAccordian.css'
 
 const RepertoireAccordian = (props) => {
   return (
-    <Accordion defaultActiveKey="0"
+    <Accordion defaultActiveKey="1"
       className="repertoireAccordian">
       <Card>
         <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="0">
+          <Accordion.Toggle as={Button} 
+            variant="link" 
+            eventKey="0"
+            className="repertoireToggle">
             {props.title}
           </Accordion.Toggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
-          <Card.Body>Hello! I'm the body</Card.Body>
+          <Card.Body>
+            <div>Hello! I'm the body</div>
+            <div>Hello! I'm the body</div>
+          </Card.Body>
         </Accordion.Collapse>
       </Card>
     </Accordion>
