@@ -5,6 +5,7 @@ import './Music.css';
 import Footer from  '../components/Footer';
 import CoverPhoto from '../resources/Repertoire Photo.jpg'
 import RepertoireAccordian from '../components/RepertoireAccordian';
+import music from '../resources/Repertoire.json';
 
 const Music = () => {
   return (
@@ -29,10 +30,12 @@ const Music = () => {
         {/* Repertoire list */}
         <div id="repertoireColumn">
           <div className="musicSubtitle">Repertoire</div>
-          <RepertoireAccordian title="Classical (Common Practice)"/>
-          <RepertoireAccordian title="Modern Classical"/>
-          <RepertoireAccordian title="Film Music"/>
-          
+          <RepertoireAccordian title="Classical (Common Practice)"
+            data={music.Classical}
+          />
+          <RepertoireAccordian title="Modern Classical, Film & Pop"
+            data={music.Contemporary}
+          />
         </div>
 
         {/* Repertoire recordings */}
