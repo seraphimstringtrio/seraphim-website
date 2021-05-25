@@ -22,3 +22,22 @@ section {
     text-align: justify;
     line-height: 28px;
 }
+
+.tables {
+    display: flex;
+}
+
+.price-table {
+    flex: 1;
+    margin: 40px;
+}
+
+.tableTitle {
+    margin: 20px;
+    flex: 1;
+    white-space: nowrap;
+}
+
+.headers {
+    display: flex;
+}
