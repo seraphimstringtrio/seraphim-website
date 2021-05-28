@@ -25,7 +25,7 @@ const ContactUs = () => {
           <p>
             If you’d like to subscribe to our mailing list, simply email is ‘SUBSCRIBE’ and we’ll add
             you. We’ll keep you up to date on our latest events and concerts. We promise not to spam
-            you and you can unsbscribe any time.
+            you and you can unsubscribe any time.
           </p>
         </div>
 
