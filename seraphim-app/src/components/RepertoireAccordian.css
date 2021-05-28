@@ -18,3 +18,16 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(240, 240, 240, 0.3);
     outline: 0 none;
 }
+
+.repertoireHeader {
+    background-color: rgba(195, 212, 233, 0.8);
+    border: none;
+}
+
+.composerRow {
+    margin-bottom: 20px;
+}
+
+.piece {
+    font-style: italic;
+}

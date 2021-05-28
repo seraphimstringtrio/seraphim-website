@@ -6,11 +6,27 @@ import Button from 'react-bootstrap/Button';
 import './RepertoireAccordian.css'
 
 const RepertoireAccordian = (props) => {
+
+  const renderComposerRow = (val, idx) => {
+    return (
+      <div key={idx} className="composerRow">
+        <strong>{val.composer}</strong>
+        {val.pieces.map((piece, idx1) => {
+          return (
+            <div key={idx1} className="piece">
+              {piece}
+            </div>
+          )
+        })}
+      </div>
+    );
+  }
+
   return (
     <Accordion defaultActiveKey="1"
       className="repertoireAccordian">
       <Card>
-        <Card.Header>
+        <Card.Header className="repertoireHeader">
           <Accordion.Toggle as={Button} 
             variant="link" 
             eventKey="0"
@@ -20,8 +36,7 @@ const RepertoireAccordian = (props) => {
         </Card.Header>
         <Accordion.Collapse eventKey="0">
           <Card.Body>
-            <div>Hello! I'm the body</div>
-            <div>Hello! I'm the body</div>
+            {props.data.map((val, idx) => renderComposerRow(val, idx))}
           </Card.Body>
         </Accordion.Collapse>
       </Card>
@@ -30,7 +45,8 @@ const RepertoireAccordian = (props) => {
 }
 
 RepertoireAccordian.propTypes = {
-  title: PropTypes.string
+  title: PropTypes.string,
+  data: PropTypes.array
 }
 
 export default RepertoireAccordian;

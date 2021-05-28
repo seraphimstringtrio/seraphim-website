@@ -1,18 +1,35 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactPlayer from 'react-player';
+import { StoreContext } from '../utils/store';
+import './ConcertRecording.css'
 
 const ConcertRecording = (props) => {
-  const style = {
-    marginTop: '10px',
-    marginBottom: '10px',
-    fontSize: '18pt'
-  }
+  const context = React.useContext(StoreContext);
+  const windowWidth = context.windowWidth[0];
+  const [videoWidth, setVideoWidth] = React.useState(undefined);
+  const [videoHeight, setVideoHeight] = React.useState(undefined);
+
+  React.useEffect(() => {
+    if (windowWidth > 900) {
+      setVideoWidth(650);
+      setVideoHeight(400);
+    } else {
+      setVideoWidth(windowWidth * 0.5);
+      setVideoHeight(windowWidth * 0.3)
+    }
+  }, [windowWidth])
 
   return (
-    <div className="concertRecording" style={style}>
-      <div style={style}>{props.title}</div>
-      <ReactPlayer url={props.link} controls={true}/>
+    <div className="concertRecording">
+      <div>{props.title}</div>
+      <div className="playerContainer">
+       <ReactPlayer url={props.link} 
+        controls={true} 
+        width={videoWidth}
+        height={videoHeight}
+      />
+      </div>
     </div>
   );
 }

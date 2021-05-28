@@ -1,0 +1,20 @@
+#contactUsBody {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.contactUsSubtitle {
+    font-size: 16pt;
+}
+
+.contactUsSection {
+    margin-bottom: 30px;
+}
+
+#facebookLogo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}

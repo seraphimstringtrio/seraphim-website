@@ -10,7 +10,7 @@ import ConcertPic3 from '../../resources/Concert 2021 pic3.jpg'
 
 const BreakingTheAsymptote = () => {
   return (
-    <section>
+    <section className="concertSubpage">
       <Navbar />
       {/* Title and description */}
       <div className="pageTitle">Breaking the Asymptote</div>
