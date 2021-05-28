@@ -1,0 +1,180 @@
+{
+    "Classical": [
+        {
+            "composer": "J.S. Bach",
+            "pieces": [
+                "Air on the G String",
+                "Brandenburg Concerto No.3, Movement I",
+                "Jesu, Joy of Man's Desiring",
+                "Concerto for Two Violins in D Minor"
+            ]
+        },
+        {
+            "composer": "L.V. Beethoven",
+            "pieces": [
+                "Ode to Joy",
+                "Symphony no.5 in C Minor"
+            ]
+        },
+        {
+            "composer": "J. Brahms",
+            "pieces": [
+                "Hungarian Dance No.5"
+            ]
+        },
+        {
+            "composer": "J. Clarke",
+            "pieces": [
+                "Trumpet Tune",
+                "Trumplet Voluntary"
+            ]
+        },
+        {
+            "composer": "L. Delibes",
+            "pieces": [
+                "Flower Duet"
+            ]
+        },
+        {
+            "composer": "A. Dvorak",
+            "pieces": [
+                "Humoresque"
+            ]
+        },
+        {
+            "composer": "G.F. Handel",
+            "pieces": [
+                "Arrival of the Queen of Sheba",
+                "'Hallelujah' from the Messiah",
+                "Hornpipe in D",
+                "La Rejouissance",
+                "Lascia Ch'io Pianga",
+                "Zadok the Priest"
+            ]
+        },
+        {
+            "composer": "J. Halvorsen",
+            "pieces": [
+                "Passacaglia (after a theme by Handel)"
+            ]
+        },
+        {
+            "composer": "J. Massenet",
+            "pieces": [
+                "Meditation from Thaïs"
+            ]
+        },
+        {
+            "composer": "F. Mendehlssohn",
+            "pieces": [
+                "Wedding March"
+            ]
+        },
+        {
+            "composer": "W.A. Mozart",
+            "pieces": [
+                "Eine Kleine Nachtmusik, Mvmts I & II"
+            ]
+        },
+        {
+            "composer": "J. Offenbach",
+            "pieces": [
+                "Wedding March"
+            ]
+        },
+        {
+            "composer": "J. Pachelbel",
+            "pieces": [
+                "Canon in D"
+            ]
+        },
+        {
+            "composer": "G. Puccini",
+            "pieces": [
+                "O Mio Babbino Caro"
+            ]
+        },
+        {
+            "composer": "C. Saint-Saens",
+            "pieces": [
+                "Le Cygne (The Swan)"
+            ]
+        },
+        {
+            "composer": "F. Schubert",
+            "pieces": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "composer": "A. Vivaldi",
+            "pieces": [
+                "The Four Seasons: Spring, Mvmt I",
+                "The Four Seasons: Winter, Mvmt I"
+            ]
+        },
+        {
+            "composer": "R. Wagner",
+            "pieces": [
+                "Wedding March: 'Here Comes the Bride'"
+            ]
+        }
+    ],
+    "Contemporary": [
+        {
+            "composer": "Adele",
+            "pieces": [
+                "Rolling in the Deep",
+                "Send My Love (To Your New Lover)"
+            ]
+        },
+        {
+            "composer": "K. Badelt",
+            "pieces": [
+                "Pirates of the Caribbean"
+            ]
+        },
+        {
+            "composer": "R. Djawadi",
+            "pieces": [
+                "Song of Ice and Fire (Game of Thrones)"
+            ]
+        },
+        {
+            "composer": "P. & M. Hill",
+            "pieces": [
+                "Happy Birthday"
+            ]
+        },
+        {
+            "composer": "A. Piazzolla",
+            "pieces": [
+                "Libertango"
+            ]
+        },
+        {
+            "composer": "Queen",
+            "pieces": [
+                "Bohemian Rhapsody"
+            ]
+        },
+        {
+            "composer": "E. Satie",
+            "pieces": [
+                "Gymnopedie"
+            ]
+        },
+        {
+            "composer": "J. Williams",
+            "pieces": [
+                "Star Wars Medley"
+            ]
+        },
+        {
+            "composer": "H. Zhan-Hao",
+            "pieces": [
+                "Butterfly Lovers' Violin Concerto (arr. for String Trio)"
+            ]
+        }
+    ]
+}

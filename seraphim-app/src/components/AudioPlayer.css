@@ -1,0 +1,16 @@
+.audioPlayer {
+    margin: 30px 0px;
+}
+
+.audioTitle {
+    font-size: 16pt;
+}
+
+.audioComposer {
+    font-style: italic;
+}
+
+.audioTitle,
+.audioComposer {
+    padding-left: 5px;
+}

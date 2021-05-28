@@ -45,7 +45,7 @@ const Home = () => {
       </div>   
 
       {/* Home page highlights grid */}
-      <div>
+      <div id="highlights">
         {/* Row 1 */}
         <div className="highlightRow">
           <img src={ConcertPhoto}
@@ -61,7 +61,7 @@ const Home = () => {
         </div>
       
         {/* Row 2 */}
-        <div className="highlightRow">
+        <div className="highlightRow highlightReverse">
             <HighlightBox button="About Us"
               title="Playing for the Prime Minister of Australia"
               buttonOnClick={() => setToAboutUs(true)}

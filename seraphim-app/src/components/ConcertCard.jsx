@@ -6,7 +6,7 @@ import './ConcertCard.css';
 const ConcertCard = (props) => {
   return (
     <div className="concertCard">
-      <div>
+      <div className="concertPhotoContainer">
         <img src={props.img} 
           alt="Concert cover shot preview" 
           className="concertCardPhoto"

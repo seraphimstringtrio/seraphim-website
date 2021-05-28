@@ -19,3 +19,14 @@
 .musicSubtitle {
     font-size: 22pt;
 }
+
+@media (max-width: 1150px) {
+    #repertoireBody {
+        flex-direction: column;
+    }
+
+    #repertoireColumn .repertoireAccordian {
+        width: 100%;
+        min-width: 400px;
+    }
+}

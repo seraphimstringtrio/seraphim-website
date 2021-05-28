@@ -10,10 +10,12 @@ import Concerts from './pages/Concerts';
 import Music from './pages/Music';
 import ContactUs from './pages/ContactUs';
 import BreakingTheAsymptote from './pages/ConcertSubpages/BreakingTheAsymptote';
+import StoreProvider from './utils/store';
 
 function App() {
   return (
-    <Router basename="/">
+    <StoreProvider>
+      <Router basename="/">
         <div>
           <Route exact path="/"><Home /></Route>
           <Route path="/aboutus"><AboutUs /></Route>
@@ -27,6 +29,7 @@ function App() {
           </Route>
         </div>
       </Router>
+    </StoreProvider>
   );
 }
 
