@@ -1,0 +1,44 @@
+.artistRowLeft {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: 
+    "profilePhoto . bio bio bio bio bio"
+    "profileName . bio bio bio bio bio";
+}
+
+.artistRowRight {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-template-areas: 
+    "bio bio bio bio bio . profilePhoto"
+    "bio bio bio bio bio . profileName"
+    "bio bio bio bio bio . profileInstrument";
+}
+
+.photoCaptionContainer {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.profilePhoto {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    grid-area: profilePhoto;
+}
+
+.bio {
+    grid-area: bio;
+    padding: 45px 45px
+}
+
+.profileName {
+    grid-area: profileName;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    display: block;
+}
