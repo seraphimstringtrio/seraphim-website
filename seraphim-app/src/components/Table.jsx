@@ -17,9 +17,6 @@ const PricingTable = (props) => {
         return [j, second_col_data[k]];
     });
 
-    console.log(data);
-
-
     return(
         <Table striped bordered hover>
             <thead>
@@ -31,7 +28,6 @@ const PricingTable = (props) => {
             <tbody>
                 {data.map(item => (
                     <tr>
-                    {console.log(item)}
                     {item.map((c1) => (
                         <>
                             <td>{c1}</td>

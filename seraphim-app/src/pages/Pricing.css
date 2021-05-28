@@ -1,0 +1,17 @@
+.tableTitle {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 20px 0px;
+}
+
+#pricingDescription {
+    margin: 10px 0px;
+}
+
+@media (max-width: 1000px) {
+    .tables {
+        display: flex;
+        flex-direction: column;
+    }
+}

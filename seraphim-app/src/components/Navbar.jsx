@@ -13,8 +13,11 @@ const Navbar = () => {
   // Scroll to top of page on render
   React.useEffect(() => {
     window.scroll(0, 0);
-    console.log(window.innerWidth)
   }, [])
+
+  React.useEffect(() => {
+    console.log(windowWidth);
+  }, [windowWidth])
 
   return (
     <section id="navbar">

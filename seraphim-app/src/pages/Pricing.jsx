@@ -2,8 +2,9 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import '../App.css';
 import Footer from  '../components/Footer';
-import EnigmaticCello from '../resources/Home.png'
+import CoverPhoto from '../resources/Pricing Cover Photo.png'
 import PricingTable from '../components/Table';
+import './Pricing.css'
 
 const Pricing = () => {
 
@@ -20,11 +21,11 @@ const Pricing = () => {
   return (
     <section>
       <Navbar />
-      <img src={EnigmaticCello} className="pricingPhoto" alt="(temp)"/>
+      <img src={CoverPhoto} className="coverPhoto" alt="Luthier working on violin"/>
       <div className="pageTitle">
         Pricing
       </div>
-      <div className="pageDescription">
+      <div id="pricingDescription">
         Our standard rates are available in the tables below.
       </div>
       <div className="tables">
@@ -37,7 +38,6 @@ const Pricing = () => {
           <PricingTable table_data={table_data_nighttime}></PricingTable>
         </div>
       </div>
-
       <Footer />
     </section>
   );

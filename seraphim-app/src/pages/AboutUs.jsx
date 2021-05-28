@@ -6,7 +6,6 @@ import CoverPhoto from '../resources/Concert 2021 pic1.jpg'
 import PMPhoto from '../resources/Prime Minister.jpg';
 import ConcertPhoto from '../resources/Concert 2021 pic2.jpg';
 import HighlightBox from '../components/HighlightBox';
-import ReactPlayer from 'react-player';
 import ProfileRow from '../components/ProfileRow';
 import AlexProfile from '../resources/Alex Profile.jpg';
 import YilanProfile from '../resources/Yilan Profile.png';
