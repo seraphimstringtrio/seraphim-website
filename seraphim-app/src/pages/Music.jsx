@@ -48,10 +48,6 @@ const Music = () => {
         {/* Repertoire recordings */}
         <div id="recordingColumn">
           <div className="musicSubtitle">Recordings</div>
-          <AudioPlayer title="Eine Kleine Nachtmusik - Mvmt I"
-            composer="W.A. Mozart"
-            audio={EineKleine}
-          />
           <AudioPlayer title="Game of Thrones"
             composer="R. Djawadi"
             audio={GameOfThrones}
