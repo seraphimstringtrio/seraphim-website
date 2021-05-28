@@ -4,17 +4,11 @@ import Logo from '../resources/Seraphim Logo.png'
 import './Navbar.css'
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
+import { StoreContext } from '../utils/store'
 
 const Navbar = () => {
-  const [windowWidth, setWindowWidth] = React.useState(window.innerWidth);
-
-  // Keep track of window width for nav bar display type
-  React.useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    }
-    window.addEventListener('resize', handleResize)
-  });
+  const context = React.useContext(StoreContext);
+  const [windowWidth, setWindowWidth] = context.windowWidth;
 
   // Scroll to top of page on render
   React.useEffect(() => {
