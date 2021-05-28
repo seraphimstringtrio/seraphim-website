@@ -9,7 +9,6 @@ import music from '../resources/Repertoire.json';
 import GameOfThrones from '../resources/Game of Thrones.mp3'
 import Brandenburg from '../resources/Brandenburg Concerto No.3.mp3'
 import Canon from '../resources/Canon in D.mp3'
-import EineKleine from '../resources/Eine Kleine Nachtmusik Mvmt 1.mp3'
 import Libertango from '../resources/Libertango.mp3'
 import WeddingMarch from '../resources/Wedding March Wagner.mp3'
 import AudioPlayer from '../components/AudioPlayer';

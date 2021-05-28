@@ -8,7 +8,7 @@ import { StoreContext } from '../utils/store'
 
 const Navbar = () => {
   const context = React.useContext(StoreContext);
-  const [windowWidth, setWindowWidth] = context.windowWidth;
+  const windowWidth = context.windowWidth[0];
 
   // Scroll to top of page on render
   React.useEffect(() => {

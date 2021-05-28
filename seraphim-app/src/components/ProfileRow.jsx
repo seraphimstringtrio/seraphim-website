@@ -8,18 +8,29 @@ const ProfileRow = (props) => {
         <div className={props.imageAlign}>
             <div className="photoCaptionContainer">
                 <img
-                src={props.photo}
-                className="profilePhoto"
+                    src={props.photo}
+                    className="profilePhoto"
+                    alt="musician profile"
                 />
                 <p className="profileName">
                     {props.name}
                     <br />
-                    <span style={{fontWeight: "normal", fontStyle: "italic"}}>{props.instrument}</span>
+                    <span className="instrument">
+                        {props.instrument}
+                    </span>
                 </p>
             </div>
             <p className="bio">{props.bio}</p>
         </div>
     )
+}
+
+ProfileRow.propTypes = {
+    imageAlign: PropTypes.string,
+    photo: PropTypes.string,
+    name: PropTypes.string,
+    instrument: PropTypes.string,
+    bio: PropTypes.string
 }
 
 export default ProfileRow;

@@ -1,31 +1,24 @@
 .artistRowLeft {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-template-areas: 
-    "profilePhoto . bio bio bio bio bio"
-    "profileName . bio bio bio bio bio";
+    display: flex;
+    flex-direction: row;
 }
 
 .artistRowRight {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-template-areas: 
-    "bio bio bio bio bio . profilePhoto"
-    "bio bio bio bio bio . profileName";
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-@media (max-width: 400px) {
-    .artistRowLeft, .artistRowRight {
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-areas: 
-        "profilePhoto"
-        "profileName"
-        "bio";
+.instrument {
+    font-style: italic;
+    font-weight: normal;
+}
+
+@media (max-width: 750px) {
+    .artistRowLeft,
+    .artistRowRight {
+        flex-direction: column;
     }
 }
-
-
 
 .photoCaptionContainer {
     vertical-align: top;
@@ -44,13 +37,12 @@
 
 .bio {
     grid-area: bio;
-    padding: 45px 45px
+    padding: 45px 45px;
 }
 
 .profileName {
     grid-area: profileName;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
     font-weight: bold;
     display: block;
 }
