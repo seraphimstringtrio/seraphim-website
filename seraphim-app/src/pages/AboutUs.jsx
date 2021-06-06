@@ -10,6 +10,7 @@ import ProfileRow from '../components/ProfileRow';
 import AlexProfile from '../resources/Alex Profile.jpg';
 import YilanProfile from '../resources/Yilan Profile.png';
 import LukeProfile from '../resources/Luke Profile.jpeg';
+import NikhilProfile from '../resources/Nikhil Profile.jpeg';
 import ConcertRecording from '../components/ConcertRecording';
 
 const AboutUs = () => {
@@ -37,7 +38,7 @@ const AboutUs = () => {
           <p>
             We're all university students who love performing and composing. Each 
             musician in the trio has studied music for more than fifteen years and 
-            has been awarded an \"Associate of Music Australia\" (AMusA).
+            has been awarded an "Associate of Music Australia" (AMusA).
           </p>
         </HighlightBox>
       </div>
@@ -84,6 +85,14 @@ const AboutUs = () => {
             "and musicology. Along with Alex, I've helped form a number of chamber ensembles in addition " + 
             "to this trio, including a piano quintet and a cello choir. And of course I love playing all " + 
             "the amazing repertoire there is for solo cello!"} 
+      />
+      <ProfileRow imageAlign={"artistRowRight"} 
+        instrument={"Support"} 
+        photo={NikhilProfile} 
+        name={"Nikhil Ahuja"} 
+        bio={"Hi! My name is Nikhil. I'm not a musician part of the trio but I help the group on all matters " + 
+            "technical. You may see me around, helping the group with videos, photos and maintaining the website."
+        } 
       />
       <Footer />
     </section>

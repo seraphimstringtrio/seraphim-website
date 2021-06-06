@@ -25,8 +25,14 @@ const BreakingTheAsymptote = () => {
       {/* Videos */}
       <ConcertRecording title="Breaking the Asymptote (Lau)"
         link="https://www.youtube.com/watch?v=m69P-qX_D0U&ab_channel=AlexanderLau"/>
+      <ConcertRecording title="Piano Trio in A Minor - IV. Finale: Animé (Ravel)"
+        link="https://www.youtube.com/watch?v=DfhQ9TmjhME&ab_channel=AlexanderLau"/>
       <ConcertRecording title="Piano Trio in G Major - III. Andante Espressivo (Debussy)"
         link="https://www.youtube.com/watch?v=T3rUo_xcHy0&ab_channel=AlexanderLau"/>
+      <ConcertRecording title="Butterfly Lovers’ Concerto - Adagio Cantabile"
+        link="https://www.youtube.com/watch?v=GKUWCB0kxog&ab_channel=AlexanderLau"/>
+      <ConcertRecording title="Butterfly Lovers’ Concerto - Allegro"
+        link="https://www.youtube.com/watch?v=ikXlvBh00WQ&feature=youtu.be&ab_channel=AlexanderLau"/>
 
       <div>
         We're currently doing post production edits on the remaining videos... 

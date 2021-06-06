@@ -15,14 +15,14 @@ const ConcertRecording = (props) => {
       setVideoWidth(650);
       setVideoHeight(400);
     } else {
-      setVideoWidth(windowWidth * 0.5);
-      setVideoHeight(windowWidth * 0.3)
+      setVideoWidth(windowWidth * 0.7);
+      setVideoHeight(windowWidth * 0.5)
     }
   }, [windowWidth])
 
   return (
     <div className="concertRecording">
-      <div>{props.title}</div>
+      <div className="recordingTitle">{props.title}</div>
       <div className="playerContainer">
        <ReactPlayer url={props.link} 
         controls={true} 

@@ -16,3 +16,12 @@
         font-size: 15pt;
     }
 }
+
+@media (max-width: 750px) {
+    .recordingTitle {
+        width: 300px;
+        font-size: 13pt;
+        margin: auto;
+        text-align: center;
+    }
+}

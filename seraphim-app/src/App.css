@@ -24,6 +24,12 @@ section {
     line-height: 28px;
 }
 
+@media (max-width: 600px) {
+    .pageDescription {
+        margin: 40px 10px;
+    }
+}
+
 .tables {
     display: flex;
 }
