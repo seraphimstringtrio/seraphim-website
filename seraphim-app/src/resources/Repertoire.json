@@ -79,7 +79,7 @@
         {
             "composer": "J. Offenbach",
             "pieces": [
-                "Wedding March"
+                "Can Can"
             ]
         },
         {
@@ -104,6 +104,12 @@
             "composer": "F. Schubert",
             "pieces": [
                 "Ave Maria"
+            ]
+        },
+        {
+            "composer": "J. Strauss",
+            "pieces": [
+                "Finale from the William Tell Overture"
             ]
         },
         {
@@ -135,15 +141,39 @@
             ]
         },
         {
+            "composer": "C. Debussy",
+            "pieces": [
+                "Claire de Lune"
+            ]
+        },
+        {
             "composer": "R. Djawadi",
             "pieces": [
                 "Song of Ice and Fire (Game of Thrones)"
             ]
         },
         {
+            "composer": "Edward Sharpe & the Magnetic Zeros",
+            "pieces": [
+                "Home"
+            ]
+        },
+        {
             "composer": "P. & M. Hill",
             "pieces": [
                 "Happy Birthday"
+            ]
+        },
+        {
+            "composer": "Maroon 5",
+            "pieces": [
+                "Sugar 5"
+            ]
+        },
+        {
+            "composer": "C. Perry",
+            "pieces": [
+                "A Thousand Years"
             ]
         },
         {
@@ -165,9 +195,42 @@
             ]
         },
         {
+            "composer": "D. Shostakovich",
+            "pieces": [
+                "Duet for 2 Violins - Prelude, Gavotte, Waltzer"
+            ]
+        },
+        {
+            "composer": "The Righteous Brothers",
+            "pieces": [
+                "Unchained Melody"
+            ]
+        },
+        {
             "composer": "J. Williams",
             "pieces": [
                 "Star Wars Medley"
+            ]
+        }
+    ],
+    "Asian": [
+        {
+            "composer": "Traditional",
+            "pieces": [
+                "Jasmine Flower",
+                "The Flowing Stream"
+            ]
+        },
+        {
+            "composer": "Z. Long",
+            "pieces": [
+                "Lan Hua-Hua"
+            ]
+        },
+        {
+            "composer": "Various",
+            "pieces": [
+                "Song Bie (Farewell)"
             ]
         },
         {

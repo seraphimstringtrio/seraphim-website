@@ -42,6 +42,9 @@ const Music = () => {
           <RepertoireAccordian title="Modern Classical, Film & Pop"
             data={music.Contemporary}
           />
+          <RepertoireAccordian title="Asian/Folk"
+            data={music.Asian}
+          />
         </div>
 
         {/* Repertoire recordings */}
